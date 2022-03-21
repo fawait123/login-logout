@@ -1,0 +1,23 @@
+membuat sistem login
+- terdapat 2 buah inputan yaitu username dan password
+- terdapat validasi untuk username dan password kosong
+- terdapat validasi untuk username dan password apakah sudah sesuai dengan yang kita set
+  pada saat fungsi login di cek
+
+
+terdapat 3 role 
+role :
+1. admin
+2. karyawan
+3. pelanggan
+dari ketika role tersebut memiliki halaman yang berbeda
+untuk karyawan nanti arahakan ke halaman karyawan.php
+untuk admin nanti arahakan ke halaman admin.php
+untuk pelanggan nanti arahakan ke halaman pelanggan.php
+
+
+dari tiap halaman dapat menampilkan 
+- username dari user yang login
+- role dari user yang login
+- tambahkan tombol logout untuk menghapus dari session yang sudah dibuat pada saat login 
+- setelah itu arahkan ke halaman login kembali
